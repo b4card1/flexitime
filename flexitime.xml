@@ -8,15 +8,13 @@
         3 = Operators
         4 = Anybody
     -->
-    <admin_level>2</admin_level>
+    <admin_level>3</admin_level>
 
     <!-- Each <admin> child element contains the login of a whitelisted user who
         can change the time regardless of admin level.
     -->
     <whitelist>
-        <admin>realh</admin>
-        <admin>supercharn</admin>
-        <admin>plext</admin>
+        <admin>b4card1_2009</admin>
     </whitelist>
 
     <!-- Default time limit in minutes (maximum time if <author_mult> is not 0).
@@ -28,7 +26,7 @@
 
     <!-- Default time for each track is <author_mult> x track's author time
         or 0 to use <default_time>. -->
-    <author_mult>0</author_mult>
+    <author_mult>5</author_mult>
 
     <!-- Minimum time in minutes if using <author_mult>. -->
     <min_time>15</min_time>
